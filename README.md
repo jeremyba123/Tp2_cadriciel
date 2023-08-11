@@ -6,7 +6,7 @@ L'objectif de ce travail pratique est de créer un site qui affiche des faits su
 
 ## Membres de l'équipe
 
-- [Jeremy Buttet-ALlard]
+- [Jeremy Buttet-Allard]
 - [Amic]
 
 ## Tâches et Répartition
