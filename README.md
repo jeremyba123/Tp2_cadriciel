@@ -4,6 +4,7 @@
 ATTENTION !!!
 
 -COCHER ETAPE QUAND FINI 
+
 -COMPOSER INSTALL LORS DU PULL DU PROJET CAR VENDOR N'EST PAS SUR GITHUB
 
 L'objectif de ce travail pratique est de créer un site qui affiche des faits sur… les chats.  
