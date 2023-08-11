@@ -2,6 +2,9 @@
 
 ATTENTION !!!! 
 
+Pour exécuter à la fois les migrations et les seeders en une seule commande, vous pouvez utiliser l'option --seed avec la commande migrate. Cela exécutera toutes les migrations et exécutera également les seeders spécifiés. Voici comment faire :
+
+php artisan migrate --seed
 
 
   -COCHER TACHE LORS FIN ET METTRE A JOUR SUR GITHUB
