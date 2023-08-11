@@ -27,7 +27,7 @@ L'objectif de ce projet est de créer un site web affichant des faits sur les ch
 
 ### Membre 1: Jeremy
 
-- [ ] Initialisation du projet (1 heure)
+- [X] Initialisation du projet (1 heure)
    - Cloner le référentiel git
    - Installer Laravel et configurer l'environnement de développement
    - Créer la structure de base du projet (layout, components, vues, etc.)
