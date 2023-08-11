@@ -1,57 +1,78 @@
-# Projet Cadriciel Web - Travail Pratique 2
+# Projet de Cadriciel Web - Travail Pratique 2 (15%)
 
+ATTENTION !!!! 
 
-ATTENTION !!!
+  -COCHER TACHE LORS FIN ET METTRE A JOUR SUR GITHUB
+  -VENDOR N'EST PAS INCLUE DANS LE GITHUB ALORS 'COMPOSER INSTALL'
+  
 
--COCHER ETAPE QUAND FINI ET METTRE A JOUR DANS LE GITHUB
+## Objectif
+L'objectif de ce projet est de créer un site web affichant des faits sur les chats. Le site doit avoir une page d'accueil qui affiche un fait aléatoire ainsi que des images de chats, une page listant tous les faits, et une page permettant d'ajouter de nouveaux faits. Vous devrez également mettre en place la suppression de faits.
 
--COMPOSER INSTALL LORS DU PULL DU PROJET CAR VENDOR N'EST PAS SUR GITHUB
-
-L'objectif de ce travail pratique est de créer un site qui affiche des faits sur… les chats.  
-
-## Membres de l'équipe
-
-- [Jeremy Buttet-Allard]
-- [Amic]
+## Équipe
+- Membre 1: Jeremy
+- Membre 2: Amic
 
 ## Tâches et Répartition
 
-### Personne 1 (jeremy buttet-allard):
+### Membre 1: Jeremy
 
-- [] Initialisation du projet (1 heure)
-- [] Page d'accueil avec fait aléatoire (2 heures)
-- [] Page de la liste des faits (3 heures)
+- [ ] Initialisation du projet (1 heure)
+   - Cloner le référentiel git
+   - Installer Laravel et configurer l'environnement de développement
+   - Créer la structure de base du projet (layout, components, vues, etc.)
 
-### Personne 2 (Amic):
+- [ ] Page d'accueil avec fait aléatoire (2 heures)
+   - Créer la vue pour la page d'accueil
+   - Récupérer un fait aléatoire à partir d'une source (placekitten.com, random.cat, etc.)
+   - Afficher le fait et les images de chats sur la page
+   - Ajouter des liens vers la page d'ajout et la liste des faits
 
-- [] Ajout d'un fait (2 heures)
-- [] Suppression de faits (2 heures)
+- [ ] Page de la liste des faits (3 heures)
+   - Créer la vue pour la liste des faits
+   - Récupérer tous les faits depuis la base de données
+   - Afficher l'id et les 60 premiers caractères de chaque fait en utilisant un accesseur
+   - Ajouter des boutons de suppression pour chaque fait
+   - Bonus #1 (si possible) : Ajouter des boutons de modification pour chaque fait
 
-### Travail collaboratif (jeremy et Amic):
+- [ ] Tests et débogage (3 heures)
+   - Tester minutieusement les fonctionnalités développées
+   - Vérifier les erreurs, les bogues et les problèmes de compatibilité
+   - Corriger les problèmes identifiés et optimiser le code si nécessaire
 
-- [] Utilisation de _layout_ et _components_ (1 heure)
-- [] Tests et débogage (3 heures)
-- [] Documentation et remise (2 heures)
+### Membre 2: Amic
 
-## Exigences Remplies
+- [ ] Ajout d'un fait (2 heures)
+   - Créer la vue pour le formulaire d'ajout d'un fait
+   - Mettre en place la validation des champs du formulaire
+   - Personnaliser les messages d'erreurs
+   - Assurer l'ajout d'un fait à la base de données en soumettant le formulaire
 
-- [] Migrations et BDD
-- [] Page d'accueil avec fait aléatoire
-- [] Page de la liste des faits
-- [] Ajout et suppression
-- [] Utilisation de _layout_/_components_
-- [] Style visuel (CSS, SCSS, Bootstrap, Tailwind, etc.)
-- [] Qualité générale du code, documentation et remise
+- [ ] Suppression de faits (2 heures)
+   - Mettre en place la logique de suppression d'un fait en utilisant des requêtes DELETE
+   - Associer les boutons de suppression sur la page de la liste des faits à la logique de suppression correspondante
+   - Tester minutieusement la fonctionnalité de suppression
 
-## Bonus
+- [ ] Bonus #2 : Utilisation du fichier JSON (1 heure)
+   - Intégrer le fichier JSON fourni pour le seeding de la base de données avec des faits réels sur les chats (en anglais)
+   - Mettre en place un seeder pour ajouter les faits à la base de données
+   - Vérifier que les données sont correctement insérées dans la base de données
 
-- [] Bonus #1 : Modification d'un fait
+- [ ] Documentation et remise (2 heures)
+   - Ajouter des commentaires pertinents pour expliquer le code
+   - Préparer le fichier zip de soumission avec le nom approprié
+   - S'assurer que le projet est prêt pour la soumission en suivant les exigences énumérées
+
+## Collaborations et Communication
+Assurez-vous de collaborer étroitement et de communiquer efficacement tout au long du projet. Utilisez les outils de communication et de gestion de projet que vous préférez pour organiser votre travail.
 
 ## Remise
+Pour la remise, faites un zip du dossier de votre projet Laravel (à l'exception du dossier /vendor) avec le nom : `cadw_tp2_NOM1_prenom1_NOM2_prenom2.zip`.
 
-Pour la remise, faites un _zip_ du dossier de votre projet Laravel sans le dossier `/vendor` avec le nom : **cadw_tp2_NOM1_prenom1_NOM2_prenom2.zip**
+## Évaluation
+Veuillez vous référer aux critères d'évaluation fournis dans l'énoncé du projet pour vous assurer que toutes les exigences sont satisfaites.
 
----
+Bonne chance et amusez-vous en développant votre projet de Cadriciel Web !
 
 
 
