@@ -1,6 +1,8 @@
 # Projet de Cadriciel Web - Travail Pratique 2 (15%)
 
-ATTENTION !!!! 
+ATTENTION !!!!
+
+MIGRATION ET SEEDING
 
 Pour exécuter à la fois les migrations et les seeders en une seule commande, vous pouvez utiliser l'option --seed avec la commande migrate. Cela exécutera toutes les migrations et exécutera également les seeders spécifiés. Voici comment faire :
 
