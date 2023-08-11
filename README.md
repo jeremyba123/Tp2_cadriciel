@@ -60,6 +60,12 @@ L'objectif de ce projet est de créer un site web affichant des faits sur les ch
    - Ajouter des commentaires pertinents pour expliquer le code
    - Préparer le fichier zip de soumission avec le nom approprié
    - S'assurer que le projet est prêt pour la soumission en suivant les exigences énumérées
+     
+### TACHE COLLOBORATIVE
+
+- [ ] Utilisation de _layout_ et _components_ (1 heure)
+- [ ] Tests et débogage (3 heures)
+- [ ] Documentation et remise (2 heures)
 
 ## Collaborations et Communication
 Assurez-vous de collaborer étroitement et de communiquer efficacement tout au long du projet. Utilisez les outils de communication et de gestion de projet que vous préférez pour organiser votre travail.
