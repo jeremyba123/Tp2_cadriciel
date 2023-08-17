@@ -22,7 +22,7 @@ Membre 1 : [jeremy]
 
 Tâches :
 
-   [ ] Migrations et BDD (2 points)
+   [x] Migrations et BDD (2 points)
    
         Créer les migrations nécessaires pour les tables de base de données.
         
@@ -30,7 +30,7 @@ Tâches :
         
         Implémenter les seeders pour ajouter les faits de départ dans la base de données.
 
-   [ ] Page d'accueil avec fait aléatoire (2 points)
+   [x] Page d'accueil avec fait aléatoire (2 points)
    
         Créer la page d'accueil.
         
@@ -40,11 +40,19 @@ Tâches :
         
         Créer les liens vers la page d'ajout et la liste des faits.
 
-   [ ] Utilisation de layout/components (2 points)
+   [ ] MANQUE 1 SEULE COMPONANT Utilisation de layout/components (2 points)
    
         Créer le layout de base pour le site.
         
         Définir et intégrer les components nécessaires sur les différentes pages.
+
+  [x]  Style visuel (3 points)
+  
+        Appliquer un style visuel cohérent à l'aide de CSS, SCSS, Bootstrap, Tailwind, etc.
+        
+        S'assurer que toutes les pages du projet ont un aspect visuel cohérent.
+        
+        Assurer la lisibilité et l'ergonomie de l'interface utilisateur.
 
 Membre 2 : [Amic]
 
@@ -72,12 +80,6 @@ Membre 3 : [Jacob]
 
 Tâches :
 
-   [ ] Utilisation de modèles (2 points)
-   
-        Créer les modèles nécessaires pour les entités du projet (par exemple : Fait, Image).
-        
-        Définir les relations entre les modèles si nécessaire.
-
    [ ]  Ajout et suppression (4 points)
    
         Mettre en place le formulaire d'ajout d'un fait sur la page correspondante.
@@ -91,6 +93,14 @@ Tâches :
   [ ]  Documentation et remise (5 points)
   
         Préparer le zip du dossier du projet Laravel pour la remise en suivant les instructions fournies.
+
+  [ ]  Style visuel (3 points)
+  
+        Appliquer un style visuel cohérent à l'aide de CSS, SCSS, Bootstrap, Tailwind, etc.
+        
+        S'assurer que toutes les pages du projet ont un aspect visuel cohérent.
+        
+        Assurer la lisibilité et l'ergonomie de l'interface utilisateur.
 
 Assurez-vous de collaborer étroitement avec vos coéquipiers tout au long du processus de développement pour vous assurer que chaque tâche est bien réalisée et que le travail avance en parallèle sans attente. Bonne chance avec votre projet !
 
