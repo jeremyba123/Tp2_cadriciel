@@ -14,7 +14,7 @@ class FaitFactory extends Factory
     public function definition()
     {
         return [
-            'contenu' => $this->faker->sentence, // Exemple d'attribut aléatoire
+            "contenu" => $this->faker->sentence, // Exemple d'attribut aléatoire
         ];
     }
 }

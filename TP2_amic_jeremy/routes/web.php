@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FaitController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*****************
+ * faits accueil
+ */
+Route::get('/', [FaitController::class, 'index'])
+    ->name('faits.index');
+
+/*****************
+ * faits list
+ */
+Route::get('/list', [FaitController::class, 'list'])
+    ->name('faits.list');
+
+// Affichage du formulaire d'ajout d'une note
+Route::get('/create', [FaitController::class, 'create'])
+    ->name('faits.create');
