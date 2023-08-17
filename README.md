@@ -90,10 +90,6 @@ Tâches :
 
   [ ]  Documentation et remise (5 points)
   
-        Rédiger la documentation du projet, expliquant les choix de conception et les étapes réalisées.
-        
-        Créer un fichier README avec les instructions d'installation et d'exécution du projet.
-        
         Préparer le zip du dossier du projet Laravel pour la remise en suivant les instructions fournies.
 
 Assurez-vous de collaborer étroitement avec vos coéquipiers tout au long du processus de développement pour vous assurer que chaque tâche est bien réalisée et que le travail avance en parallèle sans attente. Bonne chance avec votre projet !
