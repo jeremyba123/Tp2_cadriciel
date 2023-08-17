@@ -16,74 +16,61 @@ php artisan migrate --seed
   -VENDOR N'EST PAS INCLUE DANS LE GITHUB ALORS 'COMPOSER INSTALL'
   
 
-## Objectif
-L'objectif de ce projet est de créer un site web affichant des faits sur les chats. Le site doit avoir une page d'accueil qui affiche un fait aléatoire ainsi que des images de chats, une page listant tous les faits, et une page permettant d'ajouter de nouveaux faits. Vous devrez également mettre en place la suppression de faits.
+Bien sûr, voici la répartition des tâches pour chacun des membres de l'équipe :
 
-## Équipe
-- Membre 1: Jeremy
-- Membre 2: Amic
+Membre 1 : [jeremy]
 
-## Tâches et Répartition
+Tâches :
 
-### Membre 1: Jeremy
+   [ ] Migrations et BDD (2 points)
+        Créer les migrations nécessaires pour les tables de base de données.
+        Mettre en place les relations entre les tables si nécessaire.
+        Implémenter les seeders pour ajouter les faits de départ dans la base de données.
 
-- [X] Initialisation du projet (1 heure)
-   - Cloner le référentiel git
-   - Installer Laravel et configurer l'environnement de développement
-   - Créer la structure de base du projet (layout, components, vues, etc.)
+   [ ] Page d'accueil avec fait aléatoire (2 points)
+        Créer la page d'accueil.
+        Intégrer le fait aléatoire à afficher à partir de la base de données.
+        Récupérer et afficher les images de chats à partir de https://placekitten.com ou https://random.cat.
+        Créer les liens vers la page d'ajout et la liste des faits.
 
-- [ ] Page d'accueil avec fait aléatoire (2 heures)
-   - Créer la vue pour la page d'accueil
-   - Récupérer un fait aléatoire à partir d'une source (placekitten.com, random.cat, etc.)
-   - Afficher le fait et les images de chats sur la page
-   - Ajouter des liens vers la page d'ajout et la liste des faits
+   [ ] Utilisation de layout/components (2 points)
+        Créer le layout de base pour le site.
+        Définir et intégrer les components nécessaires sur les différentes pages.
 
-- [ ] Page de la liste des faits (3 heures)
-   - Créer la vue pour la liste des faits
-   - Récupérer tous les faits depuis la base de données
-   - Afficher l'id et les 60 premiers caractères de chaque fait en utilisant un accesseur
-   - Ajouter des boutons de suppression pour chaque fait
-   - Bonus #1 (si possible) : Ajouter des boutons de modification pour chaque fait
+Membre 2 : [Amic]
 
-- [ ] Tests et débogage (3 heures)
-   - Tester minutieusement les fonctionnalités développées
-   - Vérifier les erreurs, les bogues et les problèmes de compatibilité
-   - Corriger les problèmes identifiés et optimiser le code si nécessaire
+Tâches :
 
-### Membre 2: Amic
+   [ ] Page de la liste des faits (2 points)
+        Créer la page de la liste des faits.
+        Afficher tous les faits en récupérant les données de la base de données.
+        Afficher l'id et les 60 premiers caractères de chaque fait en utilisant la classe Illuminate\Support\Str.
+        Implémenter les boutons de suppression pour chaque fait.
 
-- [ ] Ajout d'un fait (2 heures)
-   - Créer la vue pour le formulaire d'ajout d'un fait
-   - Mettre en place la validation des champs du formulaire
-   - Personnaliser les messages d'erreurs
-   - Assurer l'ajout d'un fait à la base de données en soumettant le formulaire
+  [ ]  Style visuel (3 points)
+        Appliquer un style visuel cohérent à l'aide de CSS, SCSS, Bootstrap, Tailwind, etc.
+        S'assurer que toutes les pages du projet ont un aspect visuel cohérent.
+        Assurer la lisibilité et l'ergonomie de l'interface utilisateur.
 
-- [ ] Suppression de faits (2 heures)
-   - Mettre en place la logique de suppression d'un fait en utilisant des requêtes DELETE
-   - Associer les boutons de suppression sur la page de la liste des faits à la logique de suppression correspondante
-   - Tester minutieusement la fonctionnalité de suppression
+Membre 3 : [Jacob]
 
-- [ ] Documentation et remise (2 heures)
-   - Ajouter des commentaires pertinents pour expliquer le code
-   - Préparer le fichier zip de soumission avec le nom approprié
-   - S'assurer que le projet est prêt pour la soumission en suivant les exigences énumérées
-     
-### TACHE COLLOBORATIVE
+Tâches :
 
-- [ ] Utilisation de _layout_ et _components_ (1 heure)
-- [ ] Tests et débogage (3 heures)
-- [ ] Documentation et remise (2 heures)
+   [ ] Utilisation de modèles (2 points)
+        Créer les modèles nécessaires pour les entités du projet (par exemple : Fait, Image).
+        Définir les relations entre les modèles si nécessaire.
 
-## Collaborations et Communication
-Assurez-vous de collaborer étroitement et de communiquer efficacement tout au long du projet. Utilisez les outils de communication et de gestion de projet que vous préférez pour organiser votre travail.
+   [ ]  Ajout et suppression (4 points)
+        Mettre en place le formulaire d'ajout d'un fait sur la page correspondante.
+        Mettre en place la validation des champs du formulaire.
+        Personnaliser les messages d'erreurs en cas de validation incorrecte.
+        Implémenter la suppression d'un fait en lien avec les boutons de suppression sur la page de liste des faits.
 
-## Remise
-Pour la remise, faites un zip du dossier de votre projet Laravel (à l'exception du dossier /vendor) avec le nom : `cadw_tp2_NOM1_prenom1_NOM2_prenom2.zip`.
+  [ ]  Documentation et remise (5 points)
+        Rédiger la documentation du projet, expliquant les choix de conception et les étapes réalisées.
+        Créer un fichier README avec les instructions d'installation et d'exécution du projet.
+        Préparer le zip du dossier du projet Laravel pour la remise en suivant les instructions fournies.
 
-## Évaluation
-Veuillez vous référer aux critères d'évaluation fournis dans l'énoncé du projet pour vous assurer que toutes les exigences sont satisfaites.
-
-Bonne chance et amusez-vous en développant votre projet de Cadriciel Web !
-
+Assurez-vous de collaborer étroitement avec vos coéquipiers tout au long du processus de développement pour vous assurer que chaque tâche est bien réalisée et que le travail avance en parallèle sans attente. Bonne chance avec votre projet !
 
 
