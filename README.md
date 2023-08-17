@@ -54,6 +54,10 @@ Tâches :
         
         Assurer la lisibilité et l'ergonomie de l'interface utilisateur.
 
+  [ ]  Documentation et remise (5 points)
+  
+        Préparer le zip du dossier du projet Laravel pour la remise en suivant les instructions fournies.
+
 Membre 2 : [Amic]
 
 Tâches :
@@ -90,9 +94,6 @@ Tâches :
         
         Implémenter la suppression d'un fait en lien avec les boutons de suppression sur la page de liste des faits.
 
-  [ ]  Documentation et remise (5 points)
-  
-        Préparer le zip du dossier du projet Laravel pour la remise en suivant les instructions fournies.
 
   [ ]  Style visuel (3 points)
   
