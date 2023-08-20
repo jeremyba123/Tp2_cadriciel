@@ -62,7 +62,7 @@ Membre 2 : [Amic]
 
 Tâches :
 
-   [ ] Page de la liste des faits (2 points)
+   [X] Page de la liste des faits (2 points)
    
         Créer la page de la liste des faits.
         
@@ -72,7 +72,7 @@ Tâches :
         
         Implémenter les boutons de suppression pour chaque fait.
 
-  [ ]  Style visuel (3 points)
+  [X]  Style visuel (3 points)
   
         Appliquer un style visuel cohérent à l'aide de CSS, SCSS, Bootstrap, Tailwind, etc.
         
