@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Fait;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class FaitController extends Controller
 {
@@ -22,13 +23,17 @@ class FaitController extends Controller
         ]);
     }
 
-    public function list() {
-        return view('faits.list');
+    public function list()
+    {
+        $faits = Fait::all();
+
+        return view('faits.list', [
+            'faits' => $faits
+        ]);
     }
 
     public function create() {
         return view('faits.create');
     }
-
-
+    
 }

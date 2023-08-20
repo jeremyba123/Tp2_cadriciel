@@ -29,3 +29,11 @@ Route::get('/list', [FaitController::class, 'list'])
 // Affichage du formulaire d'ajout d'une note
 Route::get('/create', [FaitController::class, 'create'])
     ->name('faits.create');
+
+// Modification 
+Route::get('/{fait}/edit', [FaitController::class, 'edit'])
+    ->name('faits.edit');
+
+// Suppression
+Route::delete('/{fait}', [FaitController::class, 'destroy'])
+    ->name('faits.destroy');
