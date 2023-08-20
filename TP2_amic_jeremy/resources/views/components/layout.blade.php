@@ -9,13 +9,29 @@
     <title>{{ $titre }}</title>
     <style>
         /* Custom styles */
-        body {
+        body{
             display: flex;
             flex-direction: column;
             min-height: 100vh;
         }
         main {
             flex-grow: 1;
+        }
+
+        .create{
+            display:flex;
+            gap: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        label{
+            font-size: 1.5em;
+        }
+
+        textarea{
+            border: 1px solid black;
         }
     </style>
 

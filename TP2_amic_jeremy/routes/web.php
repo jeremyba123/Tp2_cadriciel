@@ -34,6 +34,10 @@ Route::get('/create', [FaitController::class, 'create'])
 Route::get('/{fait}/edit', [FaitController::class, 'edit'])
     ->name('faits.edit');
 
-// Suppression
-Route::delete('/{fait}', [FaitController::class, 'destroy'])
-    ->name('faits.destroy');
+// Gère l'ajout d'un fait dans la base de données
+Route::post('/store', [FaitController::class, 'store'])
+->name('faits.store');
+
+// Gère la suppression d'un fait de la base de données
+Route::delete('/faits/{id}', [FaitController::class, 'destroy'])
+->name('faits.destroy');

@@ -54,7 +54,7 @@ Tâches :
         
         Assurer la lisibilité et l'ergonomie de l'interface utilisateur.
 
-  [ ]  Documentation et remise (5 points)
+  []  Documentation et remise (5 points)
   
         Préparer le zip du dossier du projet Laravel pour la remise en suivant les instructions fournies.
 
@@ -84,7 +84,7 @@ Membre 3 : [Jacob]
 
 Tâches :
 
-   [ ]  Ajout et suppression (4 points)
+   [x]  Ajout et suppression (4 points)
    
         Mettre en place le formulaire d'ajout d'un fait sur la page correspondante.
         

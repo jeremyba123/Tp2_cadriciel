@@ -1,0 +1,5 @@
+<form>
+    @csrf
+    {{ $slot }}
+</form>
+

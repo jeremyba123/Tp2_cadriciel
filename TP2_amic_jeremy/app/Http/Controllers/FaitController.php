@@ -36,4 +36,25 @@ class FaitController extends Controller
         return view('faits.create');
     }
     
+    public function store(Request $request)
+    {
+        $request->validate([
+            'contenu' => 'required'
+        ], [
+            'contenu.required' => 'Veuillez remplir le champ.'
+        ]);    
+        Fait::create([
+            'contenu' => $request->contenu
+        ]);
+    
+        return redirect()->route('faits.list')->with('success', 'Votre fait à bien été ajouté.');
+    } 
+
+    public function destroy($id)
+    {
+        $fait = Fait::findOrFail($id);
+        $fait->delete();
+    
+        return redirect()->route('faits.list')->with('success', 'Votre fait a été supprimé.');
+    }
 }

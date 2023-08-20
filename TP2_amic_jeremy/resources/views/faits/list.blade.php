@@ -1,5 +1,12 @@
 <x-layout titre="Liste des faits">
     <div class="container mx-auto py-8">
+
+        @if (session('success'))
+            <div class="bg-green-200 text-green-800 py-2 px-4 rounded mb-4">
+                {{ session('success') }}
+            </div>
+        @endif
+        
         <h1 class="text-3xl font-bold mb-4">Liste des Faits</h1>
 
         @foreach ($faits as $fait)
